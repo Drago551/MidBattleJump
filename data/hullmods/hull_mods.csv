@@ -1,0 +1,9 @@
+id,name,desc,sModDesc,uiTags,tags,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,fighter_rows,slot_cost,hidden,source,script
+tactical_jump_drive,Tactical Jump Drive,Ship jumps just right in the middle of combat but starts with flux buildup depending on hull size %s/%s/%s/%s.,"Now you can add an sMod that:
+
+Removes the movement and flux penalty at the start
+For 10 seconds:
+-Flux dissipation +25%%
+-Shield turn rate +50%%
+-Shield raise/unfold speed +50%%",,NO_AI_AUTOPILOT,High Tech,5,12,18,25,,1,false,mod,data.hullmods.TacticalJumpDrive
+tactical_retreat_jump_drive,Tactical Retreat Jump Drive,Allows ships to retreat by tactical jump when ordered to retreat needs to have 0 flux and charge for for 2s/3s/4s/5s depending on hull size.,,,,High Tech,5,8,10,15,,,false,mod,data.hullmods.TacticalRetreatJumpDrive
